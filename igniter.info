@@ -1,0 +1,14 @@
+name = Igniter
+description = A very light starting theme.
+core = 6.x
+engine = phptemplate
+
+regions[left] = Left sidebar
+regions[right] = Right sidebar
+regions[header] = Header
+regions[navbar] = Navigation bar
+regions[content_top] = Content top
+regions[content] = Content
+regions[content_bottom] = Content bottom
+regions[footer] = Footer
+regions[closure_region] = Closure

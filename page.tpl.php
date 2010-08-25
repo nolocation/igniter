@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language ?>" lang="<?php print $language ?>">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language ?>" lang="<?php print $language->language ?>">
 <head>
     <title><?php print $head_title ?></title>
     <?php print $head ?>
@@ -52,15 +52,15 @@
     </div>
     <?php } ?>
     
-    <?php if ($sidebar_left): ?>
+    <?php if ($left): ?>
         <div id="sidebar_left">
-            <?php print $sidebar_left ?>
+            <?php print $left ?>
         </div><!-- end #sidebar1 -->
     <?php endif; ?> 
   
-    <?php if ($sidebar_right): ?>
+    <?php if ($right): ?>
         <div id="sidebar_right">
-            <?php print $sidebar_right ?>
+            <?php print $right ?>
         </div><!-- end #sidebar2 -->
     <?php endif; ?>
   

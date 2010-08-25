@@ -1,17 +1,4 @@
 <?php
-function igniter_regions() {
-  return array(
-    'left' => t('left sidebar'),
-    'right' => t('right sidebar'),
-    'navbar' => t('navigation bar'),
-    'content_top' => t('content top'),
-    'content_bottom' => t('content bottom'),
-    'pre_header' => t('pre header'),
-    'header' => t('header'),
-    'footer' => t('footer'),
-    'closure_region' => t('closure'),
-  );
-}
 
 /**
  * Intercept template variables
