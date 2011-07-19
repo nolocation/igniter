@@ -19,7 +19,6 @@ features[] = name
 features[] = slogan
 features[] = node_user_picture
 features[] = comment_user_picture
-features[] = search
 features[] = favicon
 features[] = main_menu
 features[] = secondary_menu
