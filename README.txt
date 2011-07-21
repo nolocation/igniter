@@ -18,3 +18,5 @@ Core templates -> http://drupal.org/node/190815
 Drupal Template Suggestions -> http://drupal.org/node/1089656
 
 Render Arrays in Drupal 7 -> http://drupal.org/node/930760
+
+Assigning content to regions -> http://drupal.org/node/171224
