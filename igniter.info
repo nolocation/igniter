@@ -4,15 +4,13 @@ screenshot = misc/screenshot.png
 core = 7.x
 engine = phptemplate
 
-regions[page_top] = Page top
 regions[header] = Header
-regions[highlight] = Highlight
-regions[help] = Help
-regions[content] = Content
 regions[sidebar_first] = First sidebar
+regions[content] = Content
+regions[highlighted] = Highlighted
+regions[help] = Help
 regions[sidebar_second] = Second sidebar
 regions[footer] = Footer
-regions[page_bottom] = Page bottom
 
 features[] = logo
 features[] = name
