@@ -22,7 +22,6 @@ features[] = main_menu
 features[] = secondary_menu
 
 stylesheets[all][] = css/reset.css
-stylesheets[all][] = css/grid.css
 stylesheets[all][] = css/typography.css
 stylesheets[all][] = css/style.css
 stylesheets[print][] = css/print.css
