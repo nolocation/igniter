@@ -42,12 +42,9 @@
  * @see template_preprocess_html()
  * @see template_process()
  */
-?>
-
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="<?php print $language->language; ?>" version="XHTML+RDFa 1.0" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces; ?>>
+?><!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/2001/XMLSchema#" lang="<?php print $language->language; ?>" version="HTML+RDFa 1.1" dir="<?php print $language->dir; ?>"<?php print $rdf_namespaces; ?>>
 <head profile="<?php print $grddl_profile; ?>">
-<?php print $head; ?>
 <title><?php print $head_title; ?></title>
 <?php print $styles; ?>
 <?php print $scripts; ?>
