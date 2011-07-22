@@ -15,18 +15,19 @@ We start with the core template of D7. So we are sure than we didn't forget any
 things and than nothings is left from D6.
 We also keep the original comment and documentation inside template.
 
-HTML5 doctype
+NO HTML5 doctype
 ------------------
 
-We use the HTML5 doctype but we do not use HTML5 special balises as they are 
-incompatible with old browser like IE6-7-8. But we using HTML5 element name as
-class or id for some element:
+We do not use the HTML5 doctype:
+ - HTML5 + RDFa doctype doesn't pass validator
+ - HTML5 specification change almost every day
+ - without JS it doesn't work on IE
+
+But we using HTML5 element name as class or id for some element:
  .article: for node
  .section: page section
  #header: page header section
  #footer: page footer section
-
-Why using HTML5 doctype? Mostly to get better validation.
 
 
 THEAMING DOCUMENTATION
