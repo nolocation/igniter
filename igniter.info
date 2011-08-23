@@ -5,11 +5,14 @@ core = 7.x
 engine = phptemplate
 
 regions[header] = Header
-regions[sidebar_first] = First sidebar
-regions[content] = Content
-regions[highlighted] = Highlighted
 regions[help] = Help
+regions[sidebar_first] = First sidebar
 regions[sidebar_second] = Second sidebar
+regions[content] = Content
+regions[content_top] = Content top
+regions[content_bottom] = Content bottom
+regions[page_bottom] = Page bottom
+regions[highlighted] = Highlighted
 regions[footer] = Footer
 
 features[] = logo
