@@ -28,3 +28,5 @@ stylesheets[all][] = css/reset.css
 stylesheets[all][] = css/typography.css
 stylesheets[all][] = css/style.css
 stylesheets[print][] = css/print.css
+
+scripts[] = js/igniter.js
