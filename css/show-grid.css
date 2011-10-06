@@ -1,0 +1,40 @@
+.igniter-grid-debug .grid_1:hover, .igniter-grid-debug .grid_2:hover, 
+.igniter-grid-debug .grid_3:hover, .igniter-grid-debug .grid_4:hover,
+.igniter-grid-debug .grid_5:hover, .igniter-grid-debug .grid_6:hover, 
+.igniter-grid-debug .grid_7:hover, .igniter-grid-debug .grid_8:hover,
+.igniter-grid-debug .grid_9:hover, .igniter-grid-debug .grid_10:hover, 
+.igniter-grid-debug .grid_11:hover, .igniter-grid-debug .grid_12:hover,
+.igniter-grid-debug .grid_13:hover, .igniter-grid-debug .grid_14:hover, 
+.igniter-grid-debug .grid_15:hover, .igniter-grid-debug .grid_16:hover {
+  background-color: rgba(0, 115, 186, .2);
+}
+
+
+
+.range_1 .igniter-grid-debug .container_12{
+  background-image: url('../images/igniter-720-wide-12.png');
+}
+.range_2 .igniter-grid-debug .container_12{
+  background-image: url('../images/igniter-960-wide-12.png');
+}
+.range_3 .igniter-grid-debug .container_12{
+  background-image: url('../images/igniter-1200-wide-12.png');
+}
+.range_4 .igniter-grid-debug .container_12{
+  background-image: url('../images/igniter-1560-wide-12.png');
+}
+.range_5 .igniter-grid-debug .container_12{
+  background-image: url('../images/igniter-1920-wide-12.png');
+}
+.range_6 .igniter-grid-debug .container_12{
+  background-image: url('../images/igniter-2520-wide-12.png');
+}
+
+.igniter-grid-toggle{
+  position: fixed;
+  width: 40px;
+  height: 20px;
+  top: 50%;
+  right: 0;
+  background: #aaa;
+}
